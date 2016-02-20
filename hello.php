@@ -4,7 +4,7 @@
  * Date: 1/2/2016
  * Description: Test Git
  */
-echo "Hello World!";
+echo "Hello World Everyone!";
 echo "<br> by Sherri Cook";
 echo "<br> from Beaverton";
 echo "<br> some more stuff";
