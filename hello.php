@@ -1,6 +1,6 @@
 <?php
 /**
- * Author: Sherri E. Cook
+ * Author: Sherri Cook
  * Date: 2/22/2016
  * Description: Test Git
  */
