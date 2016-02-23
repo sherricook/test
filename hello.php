@@ -1,7 +1,7 @@
 <?php
 /**
  * Author: Sherri Cook
- * Date: 2/22/2016
+ * Date: 2/22/16
  * Description: Test Git
  */
 echo "Hello World!";
