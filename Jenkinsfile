@@ -1,10 +1,11 @@
-pipeline {
-    agent { label 'agent1' }
-    stages {
-        stage('hello') {
-            steps {
-                sh 'echo Hello Jenkins!'
-            }
-        }
-    }
+node('agent1') {
+
+    def config = readYaml file: 'config/config.yaml'
+
+    echo "Provision Windows: ${config.provision_win}"
+    echo "Credentials: ${config.credentials}"
+
+    def main = load 'test_execution/main.groovy'
+    main.call(config)
+
 }
