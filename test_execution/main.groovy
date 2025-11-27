@@ -17,7 +17,7 @@ def call(config) {
         echo "Provision Windows? ${job_config.provision_win}"
         echo "Credentials: ${job_config.credentials}"
 		
-		WORKSPACE = "${WORKSPACE}"
+		def WORKSPACE = "${WORKSPACE}"
 		echo "WORKSPACE ${WORKSPACE}"
 	}
 	
