@@ -98,7 +98,6 @@ class TestCommand:
     Command test cases
     """
 
-    @pytest.mark.linux_only
     def test_command(
         self,
         command: Command,
